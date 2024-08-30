@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontrar o Maior e o Menor Valor</title>
+    <script>
+
+        var lista1 = [3, 2, 5, 1, 7, 8]
+        var maior = 0
+        var menor = 99999999
+        for(lista in lista1){
+            if(lista1[lista] > maior){
+            maior = lista1[lista]}
+            if(lista1[lista] < menor){
+            menor = lista1[lista]}
+        }
+        alert('Maior = ' + maior + ' Menor = ' + menor)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

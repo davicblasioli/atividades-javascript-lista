@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intersecção de Listas</title>
+    <script>
+
+        var lista1 = ['banana', 'uva', 'morango']
+        var lista2 = ['cachorro', 'gato', 'banana']
+        var novalista = []
+
+        for (posic in lista1){
+            for (posi2 in lista2){
+                if(lista1[posic] === lista2[posi2]){
+                    novalista.push(lista1[posic])
+                }
+            }
+        }
+        alert(novalista)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
